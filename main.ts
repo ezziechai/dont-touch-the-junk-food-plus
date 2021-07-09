@@ -286,7 +286,7 @@ itsAMeLeft = img`
 itsAMeRight = itsAMeLeft.clone()
 itsAMeRight.flipX()
 // Set lives and score
-info.setLife(10)
+info.setLife(6)
 info.setScore(0)
 // Spawn junk food
 game.onUpdateInterval(1750, function () {
